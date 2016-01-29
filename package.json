@@ -1,13 +1,12 @@
 {
-  "name": "browserstack-runner-mocha-adv",
+  "name": "browserstack-runner-jasmine-adv",
   "version": "1.0.0",
   "description": "Sample for browserstack-runner",
   "devDependencies": {
     "browserstack-runner": "latest",
-    "chai": "latest",
     "grunt": "latest",
-    "grunt-mocha": "latest",
-    "mocha": "latest"
+    "grunt-contrib-jasmine": "latest",
+    "jasmine": "latest"
   },
   "scripts": {
     "test": "grunt test",

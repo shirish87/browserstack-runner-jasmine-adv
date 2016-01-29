@@ -1,8 +1,8 @@
 {
     "username": "BROWSERSTACK_USERNAME",
     "key": "BROWSERSTACK_KEY",
-    "build": "browserstack-runner-mocha-adv",
-    "test_framework": "mocha",
+    "build": "browserstack-runner-jasmine-adv",
+    "test_framework": "jasmine2",
     "test_path": "tests/runner.html",
     "timeout" : 180,
     "browsers": [

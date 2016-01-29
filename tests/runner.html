@@ -1,12 +1,13 @@
 <!doctype html>
 <html>
     <head>
-        <link href="../node_modules/mocha/mocha.css" rel="stylesheet" />
-        <script src="../node_modules/mocha/mocha.js"></script>
-        <script src="../node_modules/chai/chai.js"></script>
+        <link href="../bower_components/jasmine-core/lib/jasmine-core/jasmine.css" rel="stylesheet" />
+        <script src="../bower_components/jasmine-core/lib/jasmine-core/jasmine.js"></script>
+        <script src="../bower_components/jasmine-core/lib/jasmine-core/jasmine-html.js"></script>
+        <script src="../bower_components/jasmine-core/lib/jasmine-core/boot.js"></script>
     </head>
     <body>
-        <div id="mocha"></div>
+        <div id="jasmine"></div>
         <script>
             mocha.setup('bdd');
             window.onload = function () { mocha.run(); };

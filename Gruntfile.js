@@ -2,19 +2,18 @@ module.exports = function (grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
 
-    // Mocha
-    mocha: {
+    // Jasmine
+    jasmine: {
       all: {
-        src: ['tests/runner.html'],
-      },
-      options: {
-        run: true
+        options: {
+          specs: "tests/*.js"
+        }
       }
     }
   });
 
   // Load grunt mocha task
-  grunt.loadNpmTasks('grunt-mocha');
+  grunt.loadNpmTasks('grunt-contrib-jasmine');
 
-  grunt.registerTask('test', [ 'mocha' ]);
+  grunt.registerTask('test', [ 'jasmine' ]);
 };

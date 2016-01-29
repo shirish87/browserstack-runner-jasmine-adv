@@ -1,9 +1,9 @@
-# browserstack-runner-mocha-adv
+# browserstack-runner-jasmine-adv
 
 Sample for [browserstack-runner](https://github.com/browserstack/browserstack-runner) projects using the following directory structure:
 ````
-- node_modules
-  * mocha
+- bower_components
+  * jasmine-core
 - tests
   * browserstack.json
   * test.js
