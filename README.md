@@ -1,5 +1,7 @@
 # browserstack-runner-jasmine-adv
 
+[![Build Status](https://travis-ci.org/shirish87/browserstack-runner-jasmine-adv.svg?branch=master)](https://travis-ci.org/shirish87/browserstack-runner-jasmine-adv)
+
 Sample for [browserstack-runner](https://github.com/browserstack/browserstack-runner) projects using the following directory structure:
 ````
 - bower_components
